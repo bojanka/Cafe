@@ -5,14 +5,14 @@
 	font-family: "Comfortaa", sans-serif;
 }
 .all-content{
-	background: black;
+	background: whitesmoke;
 
 }
 html::-webkit-scrollbar-track{
 	background: transparent;
 }
 html::-webkit-scrollbar-thumb{
-	background: white;
+	background: orange;
 	border-radius: 10px;
 }
 html::-webkit-scrollbar{
@@ -51,8 +51,8 @@ html::-webkit-scrollbar{
 	width: 100%;
 	height: 90vh;
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/bc3.png);
-		background-size: cover;
-		background-position: 88%;
+	background-size: cover;
+	background-position: 88%;
 
 }
 #home .content{
@@ -80,4 +80,59 @@ html::-webkit-scrollbar{
 }
 #btn:hover{
 	background: whitesmoke;
+}
+
+
+#about{
+	width: 100%;
+	height: 100vh;
+
+}
+#about .container{
+	padding-top: 70px;
+}
+.heading{
+	text-align: center;
+	margin-bottom: 50px;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+.heading span{
+	color: orange;
+}
+#about .card {
+	border-radius: 10px;
+}
+#about .card img{
+	border-radius: 10px;
+}
+#about-btn{
+	width: 200px;
+	height: 36px;
+	background: transparent;
+	border: 2px solid orange;
+	color: orange;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: 0.5s;
+	cursor: pointer;
+}
+#about-btn:hover{
+	background-color: orange;
+	color: whitesmoke;
+}
+@media screen and (max-width:982px){
+	#about p{
+		font-size: 8px;
+	}
+}
+
+@media screen and (max-width:766px){
+	#about p{
+		font-size: 15px;
+	}
+	#about{
+		height: 120vh;
+	}
 }
